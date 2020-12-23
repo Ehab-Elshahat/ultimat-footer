@@ -8,6 +8,19 @@ body{
   padding: 0;
   height: 100vh;
 }
+.main-heading{
+  text-transform: capitalize;
+  font-weight: normal;
+  color: #fe5722;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 section{
   position: absolute;
   width: 100%;
@@ -192,6 +205,9 @@ footer {
 @media(max-width: 991px){
   body{
     overflow: auto;
+  }
+  .main-heading{
+    display: none;
   }
   section{
     display: flex;
